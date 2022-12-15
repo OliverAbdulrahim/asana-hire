@@ -1,6 +1,6 @@
 import {Table} from "flowbite-react"
 
-function Job(props) {
+function JobTableEntry(props) {
     return (
         <Table.Body className="divide-y">
             <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -21,4 +21,4 @@ function Job(props) {
     );
 }
 
-export default Job
+export default JobTableEntry

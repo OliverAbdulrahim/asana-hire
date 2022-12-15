@@ -3,7 +3,6 @@ import {useState} from "react";
 import BreadcrumbNav from "../components/ui/BreadcrumbNav";
 import {getJsonPromise, loadingSpinner} from "../utils/PageUtils";
 import {useEffect} from "react";
-import {Button} from "flowbite-react";
 
 function AllJobsPage() {
     const [isLoading, setIsLoading] = useState(true);

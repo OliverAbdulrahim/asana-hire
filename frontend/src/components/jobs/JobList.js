@@ -1,5 +1,5 @@
 import {Button, Card, Table} from "flowbite-react"
-import Job from "./Job";
+import JobTableEntry from "./JobTableEntry";
 
 function JobList(props) {
     return (
@@ -21,7 +21,7 @@ function JobList(props) {
                         </Table.HeadCell>
                     </Table.Head>
                     {props.jobs.map((job) =>
-                        <Job
+                        <JobTableEntry
                             key={job.id}
                             id={job.id}
                             title={job.title}
